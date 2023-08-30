@@ -1,0 +1,35 @@
+#banner{
+  background-color: #f6f6f6;
+  padding: 100px 0 ;
+  text-align: center;
+  min-width: 1300px;
+}
+
+#banner > h1{
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+#banner>p{
+  color: #787878;
+  line-height: 1.7;
+}
+
+#works>.wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+#works .box{
+  width: 325px;
+  height: 280px;
+  position: relative;
+  overflow: hidden;
+}
+
+#works .box .overlay{
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  /*포지션속성을 적용한 부모와 같은 크기로 설정*/
+  background: #10c9c388 url(../img/eye.png);
+}
